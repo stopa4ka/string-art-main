@@ -1,0 +1,20 @@
+{
+  "name": "thread-art",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "start": "turbo run start",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "@capacitor/cli": "5.5.0",
+    "eslint": "^8.55.0",
+    "prettier": "^3.1.1",
+    "tsconfig": "workspace:*",
+    "turbo": "latest"
+  },
+  "packageManager": "pnpm@8.6.10"
+}
